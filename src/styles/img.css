@@ -1,0 +1,111 @@
+.img {
+    width: 96%;
+    height: 85vh;
+    margin-bottom: 2rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://d-themes.com/react/porto/demo5/images/home/slider/slide-1.jpg");
+}
+
+.upper {
+    width: 60%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.upper h1 em {
+    font-size: 4rem;
+    font-family: serif;
+}
+
+.upper h5 button {
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem;
+    width: 11rem;
+}
+
+.upper h1 em {
+    font-size: 4rem;
+    font-family: serif;
+}
+
+.upper h5 span {
+    background-color: #ff7272;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin: 0 1rem;
+    font-size: 1.5rem;
+}
+
+.upper h2 {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+
+.upper em {
+    display: flex;
+    font-family: serif;
+    gap: 1rem;
+}
+
+.upper h4{
+    color: gray;
+ 
+}
+
+
+
+
+/* .img{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.upper{
+    position: absolute;
+    bottom: 4rem;
+    left: 15rem;
+
+}
+.upper h2{
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+}
+.upper em{
+    display: flex;
+    font-family:serif;
+    gap: 1rem;
+}
+.upper h1 em{
+    font-size: 4rem;
+    font-family:serif;
+}
+.upper h5 span{
+    background-color: #ff7272;
+    color: white;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin:0 1rem;
+    font-size: 1.5rem;
+}
+.upper h5 button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem;
+    width: 11rem;
+} */
+
+

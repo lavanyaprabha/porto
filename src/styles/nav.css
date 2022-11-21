@@ -1,0 +1,42 @@
+.nav {
+    width: 93%;
+    height: 15%;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 0 3rem;
+    background-color: #1d70ba;
+}
+.home{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.select{
+    width: 7rem;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+}
+.select option{
+    color: black;
+}
+.opt option{
+    color: black;
+}
+.opt{
+    width: 4.5rem;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background-color: transparent;
+}
+.nav div:nth-child(2){
+    display: flex;
+    gap: 1rem;
+}

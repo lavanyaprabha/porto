@@ -1,0 +1,103 @@
+.porto{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+}
+.porto div:nth-child(1) div{
+    width:100% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+
+
+.porto div:nth-child(1) {
+    width: 32%;
+    margin: 2rem 0;
+    height: 30vh;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url("https://d-themes.com/react/porto/demo5/images/home/banners/banner-1.jpg");
+}
+
+.porto div:nth-child(1) span{
+    color:#1d70ba ;
+    font-size: 2rem;
+}
+
+.porto  button{
+    color: white;
+    background-color: black;
+    padding: 0.8rem;
+    margin-top: 0.4rem;
+}
+.porto div:nth-child(2) {
+    width: 30%;
+    margin: 2rem 0;
+    height: 30vh;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url("https://d-themes.com/react/porto/demo5/images/home/banners/banner-2.jpg");
+    border: 10px solid blue;
+}
+
+.porto div:nth-child(2) section{
+    width:100% ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.porto div:nth-child(2) section h3{
+ font-size: 1rem;
+ color: gray;
+}
+
+
+
+
+.porto div:nth-child(3) {
+    width: 30%;
+    margin: 2rem 0;
+    height: 30vh;
+    padding: 2rem;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    background-image: url("https://d-themes.com/react/porto/demo5/images/home/banners/banner-3.jpg");
+    /* border: 1px solid blue; */
+}
+
+.porto div:nth-child(3) h5 h4{
+ background-color: #ff7272;
+ border-radius: 50%;
+ width: 4rem;
+ height: 4rem;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-size: 1rem;
+}
+
+.porto div:nth-child(3) h5{
+    display: flex;
+    margin-left: 6rem;
+    gap: 3rem;
+}
+
+.porto div:nth-child(3) h5 h4 sub{
+    font-size: 0.5rem;
+}
